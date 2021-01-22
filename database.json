@@ -1,0 +1,15 @@
+{
+  "defaultEnv": {
+    "ENV": "PARKMANAGER_NODE_ENV"
+  },
+  "development": {
+    "ENV": "PARKMANAGER_POSTGRES_DEV_URL"
+  },
+  "test": {
+    "ENV": "PARKMANAGER_POSTGRES_TEST_URL"
+  },
+  "production": {
+    "ENV": "PARKMANAGER_DATABASE_URL"
+  },
+  "sql-file": true
+}
